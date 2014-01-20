@@ -250,7 +250,10 @@ INSTALLED_APPS = (
     "mezzanine.twitter",
     "mezzanine.accounts",
     "mezzanine.mobile",
+    # THIRD PARTY APPS#
     "debug_toolbar",
+    # IN-HOUSE APPS #
+    "classified",
 )
 
 # List of processors used by RequestContext to populate the context.
@@ -382,4 +385,16 @@ ACCOUNTS_APPROVAL_REQUIRED = True
 ##########################
 # DEBUG TOOLBAR SETTINGS #
 ##########################
-ALLOWED_HOSTS = ['.127.O.O.1.']
+ALLOWED_HOSTS = ['.127.O.O.1.', 'localhost']
+
+###################################
+# SITE TAGLINE AND TITLE SETTINGS #
+###################################
+SITE_TAGLINE = "Tech Community of S. Florida"
+SITE_TITLE = "South Florida Tech"
+
+####################
+# TWITTER SETTINGS #
+####################
+
+TWITTER_DEFAULT_QUERY = u'from:shaytac'

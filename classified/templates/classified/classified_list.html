@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% load mezzanine_tags rating_tags future %}
+
+{% block meta_title %}{{ title|default:"Home" }}{% endblock %}
+{% block title %}{{ title }}{% endblock %}
+
+{% block main %}
+
+{% for classified in object_list %}
+<div class="classified-item clearfix">
+    <div class="classified-detail{% if classified.rating_sum < 0 %} classified-negative{% endif %}">
+        <h2>
+            <a href="{{ classified.classified }}">{{ classified.classified_title }}</a>
+        </h2>
+
+        <a class="comments" href="{{ classified.get_absolute_url }}">{{ classified.comments_count }} comment{{ classified.comments_count|pluralize }} </a>
+    </div>
+</div>
+{% empty %}
+<p>{{ no_data }}</p>
+{% endfor %}
+
+{% pagination_for object_list "page" "pjax" %}
+
+{% endblock %}

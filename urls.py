@@ -5,6 +5,8 @@ from django.conf.urls.i18n import i18n_patterns
 from django.contrib import admin
 
 from mezzanine.core.views import direct_to_template
+#from classified.views import ClassifiedListView
+#from django.views.generic import ListView
 
 
 admin.autodiscover()
@@ -17,6 +19,7 @@ urlpatterns = i18n_patterns("",
     # Change the admin prefix here to use an alternate URL for the
     # admin interface, which would be marginally more secure.
     ("^admin/", include(admin.site.urls)),
+    ("^", include("classified.urls")),
 )
 
 urlpatterns += patterns('',
@@ -70,6 +73,7 @@ urlpatterns += patterns('',
     # from it, and use them directly below instead of using
     # ``mezzanine.urls``.
     ("^", include("mezzanine.urls")),
+
 
     # MOUNTING MEZZANINE UNDER A PREFIX
     # ---------------------------------

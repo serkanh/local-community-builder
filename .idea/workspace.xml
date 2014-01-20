@@ -23,20 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="0" selection-start="3979" selection-end="3979" vertical-scroll-proportion="-25.72" vertical-offset="1067" max-vertical-offset="1818">
-              <folding />
+            <state line="21" column="7" selection-start="717" selection-end="717" vertical-scroll-proportion="-15.12" vertical-offset="0" max-vertical-offset="1890">
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,16 +46,70 @@
       <file leaf-file-name="local_settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/local_settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="856" selection-end="856" vertical-scroll-proportion="-17.28" vertical-offset="0" max-vertical-offset="540">
+            <state line="25" column="44" selection-start="901" selection-end="901" vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="576">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classified/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="30" selection-start="168" selection-end="168" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="198">
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="382" column="22" selection-start="13212" selection-end="13212" vertical-scroll-proportion="0.8969957" vertical-offset="6249" max-vertical-offset="7020">
+            <state line="387" column="0" selection-start="13308" selection-end="13352" vertical-scroll-proportion="-7.2115383" vertical-offset="6591" max-vertical-offset="7290">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classified/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.6666667" vertical-offset="0" max-vertical-offset="702">
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classified/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="22" selection-start="229" selection-end="229" vertical-scroll-proportion="-5.04" vertical-offset="0" max-vertical-offset="270">
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classified/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="22" selection-start="389" selection-end="389" vertical-scroll-proportion="-7.92" vertical-offset="36" max-vertical-offset="792">
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <marker date="1390236935431" expanded="true" signature="199:322" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classified_list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classified/templates/classified/classified_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="67" selection-start="524" selection-end="557" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="558">
               <folding />
             </state>
           </provider>
@@ -78,8 +125,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/local_settings.py" />
         <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/local_settings.py" />
+        <option value="$PROJECT_DIR$/classified/templates/classified_list.html" />
+        <option value="$PROJECT_DIR$/classified/urls.py" />
+        <option value="$PROJECT_DIR$/urls.py" />
+        <option value="$PROJECT_DIR$/classified/templates/listing_list.html" />
+        <option value="$PROJECT_DIR$/classified/templates/classified/listing_list.html" />
+        <option value="$PROJECT_DIR$/classified/views.py" />
+        <option value="$PROJECT_DIR$/classified/admin.py" />
+        <option value="$PROJECT_DIR$/classified/templates/classified/classified_list.html" />
+        <option value="$PROJECT_DIR$/classified/models.py" />
       </list>
     </option>
   </component>
@@ -134,6 +190,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techfl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techfl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classified" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techfl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techfl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classified" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classified" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -149,6 +241,15 @@
     <option name="myPythonConsoleState">
       <PyConsoleSettings />
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/classified/templates/classified" />
+      <recent name="$PROJECT_DIR$/classified/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/classified/templates/classified" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="tests" factoryName="py.test">
@@ -349,24 +450,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="387" column="0" selection-start="13308" selection-end="13352" vertical-scroll-proportion="-7.2115383" vertical-offset="6591" max-vertical-offset="7290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/local_settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="856" selection-end="856" vertical-scroll-proportion="-17.28" vertical-offset="0" max-vertical-offset="540">
+        <state line="25" column="44" selection-start="901" selection-end="901" vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="576">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="751">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="3979" selection-end="3979" vertical-scroll-proportion="-25.72" vertical-offset="1067" max-vertical-offset="1818">
+        <state line="21" column="7" selection-start="717" selection-end="717" vertical-scroll-proportion="-15.12" vertical-offset="0" max-vertical-offset="1890">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classified/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="229" selection-end="229" vertical-scroll-proportion="-5.04" vertical-offset="0" max-vertical-offset="270">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classified/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="168" selection-end="168" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="198">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classified/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="22" selection-start="389" selection-end="389" vertical-scroll-proportion="-7.92" vertical-offset="36" max-vertical-offset="792">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1390236935431" expanded="true" signature="199:322" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classified/templates/classified/classified_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="67" selection-start="524" selection-end="557" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="558">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
+    <entry file="file://$PROJECT_DIR$/classified/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="382" column="22" selection-start="13212" selection-end="13212" vertical-scroll-proportion="0.8969957" vertical-offset="6249" max-vertical-offset="7020">
-          <folding />
+        <state line="26" column="0" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.6666667" vertical-offset="0" max-vertical-offset="702">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
