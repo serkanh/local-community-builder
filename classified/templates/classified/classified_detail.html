@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% load mezzanine_tags rating_tags comment_tags %}
+
+{% block meta_description %}{% metablock %}{{ object.description }}{% endmetablock %}{% endblock %}
+{% block meta_title %}{{ object.title }}{% endblock %}
+{% block title %}
+<a href="{{ object.link }}">{{ object.classified_title }}</a>
+{% endblock %}
+
+{% block main %}
+<div class="link-view">
+    <p class="description">{{ object.title }}</p>
+    <div class="link-meta">
+
+
+    </div>
+
+
+</div>
+{% endblock %}

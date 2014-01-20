@@ -7,3 +7,6 @@ from classified.models import Classified
 class ClassifiedListView(ListView):
     model = Classified
 
+
+class ClassifiedDetailView(DetailView):
+    model = Classified

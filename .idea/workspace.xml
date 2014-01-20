@@ -72,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classified/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.6666667" vertical-offset="0" max-vertical-offset="702">
+            <state line="26" column="0" selection-start="1046" selection-end="1046" vertical-scroll-proportion="-18.72" vertical-offset="0" max-vertical-offset="576">
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -83,10 +83,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="classified_detail.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classified/templates/classified/classified_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="61" selection-start="313" selection-end="313" vertical-scroll-proportion="0.1872214" vertical-offset="0" max-vertical-offset="673">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classified/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="22" selection-start="229" selection-end="229" vertical-scroll-proportion="-5.04" vertical-offset="0" max-vertical-offset="270">
+            <state line="10" column="22" selection-start="254" selection-end="254" vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="324">
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -97,10 +106,10 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classified/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="22" selection-start="389" selection-end="389" vertical-scroll-proportion="-7.92" vertical-offset="36" max-vertical-offset="792">
+            <state line="13" column="31" selection-start="437" selection-end="454" vertical-scroll-proportion="-7.92" vertical-offset="36" max-vertical-offset="846">
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <marker date="1390236935431" expanded="true" signature="199:322" placeholder="..." />
+                <marker date="1390242884599" expanded="true" signature="221:344" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -109,7 +118,7 @@
       <file leaf-file-name="classified_list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classified/templates/classified/classified_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="67" selection-start="524" selection-end="557" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="558">
+            <state line="13" column="47" selection-start="434" selection-end="434" vertical-scroll-proportion="-4.3333335" vertical-offset="0" max-vertical-offset="558">
               <folding />
             </state>
           </provider>
@@ -128,14 +137,15 @@
         <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/local_settings.py" />
         <option value="$PROJECT_DIR$/classified/templates/classified_list.html" />
-        <option value="$PROJECT_DIR$/classified/urls.py" />
         <option value="$PROJECT_DIR$/urls.py" />
         <option value="$PROJECT_DIR$/classified/templates/listing_list.html" />
         <option value="$PROJECT_DIR$/classified/templates/classified/listing_list.html" />
-        <option value="$PROJECT_DIR$/classified/views.py" />
         <option value="$PROJECT_DIR$/classified/admin.py" />
-        <option value="$PROJECT_DIR$/classified/templates/classified/classified_list.html" />
         <option value="$PROJECT_DIR$/classified/models.py" />
+        <option value="$PROJECT_DIR$/classified/views.py" />
+        <option value="$PROJECT_DIR$/classified/urls.py" />
+        <option value="$PROJECT_DIR$/classified/templates/classified/classified_list.html" />
+        <option value="$PROJECT_DIR$/classified/templates/classified/classified_detail.html" />
       </list>
     </option>
   </component>
@@ -443,27 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="753">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="387" column="0" selection-start="13308" selection-end="13352" vertical-scroll-proportion="-7.2115383" vertical-offset="6591" max-vertical-offset="7290">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="44" selection-start="901" selection-end="901" vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="751">
@@ -482,12 +471,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classified/views.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="229" selection-end="229" vertical-scroll-proportion="-5.04" vertical-offset="0" max-vertical-offset="270">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="753">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="44" selection-start="901" selection-end="901" vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="576">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -500,29 +494,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classified/urls.py">
+    <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="389" selection-end="389" vertical-scroll-proportion="-7.92" vertical-offset="36" max-vertical-offset="792">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <marker date="1390236935431" expanded="true" signature="199:322" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classified/templates/classified/classified_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="67" selection-start="524" selection-end="557" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="558">
+        <state line="387" column="0" selection-start="13308" selection-end="13352" vertical-scroll-proportion="-7.2115383" vertical-offset="6591" max-vertical-offset="7290">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classified/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.6666667" vertical-offset="0" max-vertical-offset="702">
+        <state line="26" column="0" selection-start="1046" selection-end="1046" vertical-scroll-proportion="-18.72" vertical-offset="0" max-vertical-offset="576">
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classified/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="31" selection-start="437" selection-end="454" vertical-scroll-proportion="-7.92" vertical-offset="36" max-vertical-offset="846">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <marker date="1390242884599" expanded="true" signature="221:344" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classified/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="254" selection-end="254" vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="324">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classified/templates/classified/classified_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="47" selection-start="434" selection-end="434" vertical-scroll-proportion="-4.3333335" vertical-offset="0" max-vertical-offset="558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classified/templates/classified/classified_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="61" selection-start="313" selection-end="313" vertical-scroll-proportion="0.1872214" vertical-offset="0" max-vertical-offset="673">
+          <folding />
         </state>
       </provider>
     </entry>

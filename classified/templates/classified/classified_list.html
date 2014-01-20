@@ -11,7 +11,7 @@
 <div class="classified-item clearfix">
     <div class="classified-detail{% if classified.rating_sum < 0 %} classified-negative{% endif %}">
         <h2>
-            <a href="{{ classified.classified }}">{{ classified.classified_title }}</a>
+            <a href="{% url 'classified_detail' classified.slug %}">{{ classified.classified_title }}</a>
         </h2>
 
         <a class="comments" href="{{ classified.get_absolute_url }}">{{ classified.comments_count }} comment{{ classified.comments_count|pluralize }} </a>
