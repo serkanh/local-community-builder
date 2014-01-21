@@ -15,7 +15,8 @@
 
 
     </div>
-
+    <h3>There are {{ object.comments_count }} comment{{ obect.comments_count|pluralize }}</h3>
+        {% comments_for object %}
 
 </div>
 {% endblock %}

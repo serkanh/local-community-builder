@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load url from future %}
+{% block main %}
+    <h3>Welcome to the Florida Tech</h3>
+    <p>Check out upcoming tech events in South Florida.</p>
+
+    <ul id="belts">
+        <li><a id="white-belt"  href="{% url 'tech-event' "mtup" %}">Meet Up</a></li>
+        <li><a id="yellow-belt" href="{% url 'tech-event' "sat" %}">Show and Tell</a></li>
+    </ul>
+{% endblock main %}

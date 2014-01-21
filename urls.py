@@ -20,6 +20,7 @@ urlpatterns = i18n_patterns("",
     # admin interface, which would be marginally more secure.
     ("^admin/", include(admin.site.urls)),
     ("^", include("classified.urls")),
+    ("^", include("techvents.urls")),
 )
 
 urlpatterns += patterns('',

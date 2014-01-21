@@ -12,8 +12,8 @@ class Classified(models.Model):
     slug = models.SlugField(unique=True, blank=True, null=True)
     classified_title = models.CharField(max_length=100, null=True, blank=True)
     submission_date = models.DateField(null=True, blank=True)
-    classified_keywords = KeywordsField(null=True, blank=True)
-    classified_comments = CommentsField(null=True, blank=True)
+    keywords = KeywordsField(null=True, blank=True)
+    comments = CommentsField(null=True, blank=True)
 
     def save(self, *args, **kwargs):
          if not self.slug:
