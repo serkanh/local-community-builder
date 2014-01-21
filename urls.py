@@ -3,10 +3,9 @@ from __future__ import unicode_literals
 from django.conf.urls import patterns, include, url
 from django.conf.urls.i18n import i18n_patterns
 from django.contrib import admin
-
 from mezzanine.core.views import direct_to_template
-#from classified.views import ClassifiedListView
-#from django.views.generic import ListView
+from techvents import views
+
 
 
 admin.autodiscover()

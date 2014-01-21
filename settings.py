@@ -225,6 +225,11 @@ ROOT_URLCONF = "%s.urls" % PROJECT_DIRNAME
 # Don't forget to use absolute paths, not relative paths.
 TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, "templates"),)
 
+###########
+# PROFILE #
+###########
+
+AUTH_PROFILE_MODULE = 'userprofile.UserProfile'
 
 ################
 # APPLICATIONS #
@@ -256,6 +261,7 @@ INSTALLED_APPS = (
     # IN-HOUSE APPS #
     "classified",
     "techvents",
+    "userprofile",
 )
 
 # List of processors used by RequestContext to populate the context.
@@ -401,8 +407,4 @@ SITE_TITLE = "South Florida Tech"
 
 TWITTER_DEFAULT_QUERY = u'from:shaytac'
 
-###########
-# PROFILE #
-###########
 
-AUTH_PROFILE_MODULE = "user.UserProfile"
